@@ -40,7 +40,7 @@ Python解释器只是一个程序，它读取和解释传递给提示符的命�
 
 每次按Enter键时，解释器就开始通过令牌(称为令牌化)扫描代码(行或完整的代码文件)。这些标记是解释器在树结构中排列的文本片段。得到的树是程序的逻辑结构，然后转换为字节码(.pyc或.pyo)。流程链以将由Python虚拟机(PVM)执行的字节码结束。见图2-1.
 
-![Figure 2-1](images/figure-2-1.png)
+![Figure 2-1](images/Figure-2-1.png)
 >> 图2-1. Python解释器执行的步骤
 
 您可以在https://www.ics.uci.edu/~Pattis/ICS-31/ORISS/Tokens.pdf上找到关于这一过程的非常好的文档。

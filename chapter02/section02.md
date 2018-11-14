@@ -469,13 +469,13 @@ jupyter qtconsole
 
 应用程序由一个GUI组成，该GUI具有IPython shell中提供的所有功能。见图2-3。
 
-![Figure 2-3](images/figure-2-3.png)
+![Figure 2-3](images/Figure-2-3.png)
 >> 图2-3.IPython QtConsole
 
 ### Jupyter Notebook
 
 Jupyter Notebook是这个交互环境的最新发展(参见图2-4)。实际上，使用Jupyter Notebook，您可以将可执行代码、文本、公式、图像和动画合并到单个Web文档中。这对于演示文稿、教程、调试等许多用途都很有用。
 
-![Figure 2-4](images/figure-2-4.png)
+![Figure 2-4](images/Figure-2-4.png)
 >> 图2-4.显示Jupyter Notebook的网页
 
