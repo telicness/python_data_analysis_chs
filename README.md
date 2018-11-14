@@ -40,20 +40,20 @@
 * [3.11. 读写文件中的数组数据](chapter03/section11.md)
 * [3.12. 结论](chapter03/section12.md)
 
-### [第4章：Pandas图书馆简介](chapter04)
+### [第4章：pandas简介](chapter04)
 
-* [4.1. Pandas：Python数据分析库](chapter04/section01.md)
+* [4.1. pandas：Python数据分析库](chapter04/section01.md)
 * [4.2. 安装的Pandas](chapter04/section02.md)
 * [4.3. 测试Pandas安装](chapter04/section03.md)
-* [4.4. Pandas入门](chapter04/section04.md)
-* [4.5. Pandas数据结构简介](chapter04/section05.md)
+* [4.4. pandas入门](chapter04/section04.md)
+* [4.5. pandas数据结构简介](chapter04/section05.md)
 * [4.6. 索引的其他功能](chapter04/section06.md)
 * [4.7. 数据结构之间的操作](chapter04/section07.md)
 * [4.8. 函数应用与映射](chapter04/section08.md)
 * [4.9. 排序和排名](chapter04/section09.md)
 * [4.10. 相关性与协方差](chapter04/section10.md)
 * [4.11. "非数值"数据](chapter04/section11.md)
-* [4.12. 分层索引和水准测量](chapter04/section12.md)
+* [4.12. 索引与层级结构](chapter04/section12.md)
 * [4.13. 结论](chapter04/section13.md)
 
 <!-- START_TOC -->
