@@ -449,7 +449,7 @@ Out[6]:
 IPython是一个近年来发展迅猛的项目，随着IPython 3.0的发布，一切都朝着一个名为Jupyter的新项目发展
 (https://jupyter.org)--见图2-2)。
 
-![Figure 2-2](images/Figure-2-2.png)
+![Figure 2-2](images/figure-2-2.png)
 >> 图2-2.Jupyter项目标志
 
 IPython将继续作为Python shell和Jupyter内核存在，但是属于IPython项目的Notebook和其他与语言无关的组件将继续作为新的Jupyter项目存在。
@@ -469,13 +469,13 @@ jupyter qtconsole
 
 应用程序由一个GUI组成，该GUI具有IPython shell中提供的所有功能。见图2-3。
 
-![Figure 2-3](images/Figure-2-3.png)
+![Figure 2-3](images/figure-2-3.png)
 >> 图2-3.IPython QtConsole
 
 ### Jupyter Notebook
 
 Jupyter Notebook是这个交互环境的最新发展(参见图2-4)。实际上，使用Jupyter Notebook，您可以将可执行代码、文本、公式、图像和动画合并到单个Web文档中。这对于演示文稿、教程、调试等许多用途都很有用。
 
-![Figure 2-4](images/Figure-2-4.png)
+![Figure 2-4](images/figure-2-4.png)
 >> 图2-4.显示Jupyter Notebook的网页
 
