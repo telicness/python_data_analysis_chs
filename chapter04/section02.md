@@ -8,7 +8,7 @@
 
 ## 从Anaconda安装
 
-对于那些选择使用Anaconda发行版的人来说，管理安装非常简单。首先，您必须查看是否安装了panda模块，如果安装了，是哪个版本。要做到这一点，从终端输入以下命令:
+对于那些选择使用Anaconda发行版的人来说，管理安装非常简单。首先，您必须查看是否安装了pandas模块，如果安装了，是哪个版本。要做到这一点，从终端输入以下命令:
 
 ```commandline
 conda list pandas
@@ -82,15 +82,14 @@ zypper in python-pandas
 
 ## 从源代码安装
 
-如果你想从源代码编译你的pandas模块，你可以在GitHub上找到你需要的https://github.com/pandas-dev/panda:
+如果你想从源代码编译你的pandas模块，你可以在GitHub上找到你需要的https://github.com/pandas-dev/pandas:
 
 ```commandline
 git clone git://github.com/pydata/pandas.git
 cd pandas
 python setup.py install
 ```
-Make sure you have installed Cython at compile time. For more information, read the documentation available on the Web, including the official page (http://pandas. pydata.org/pandas-docs/stable/install.html).
-确保在编译时安装了Cython。要了解更多信息，请阅读Web上的文档，包括官方页面(http://panda)。pydata.org/pandas-docs/stable/install.html)。
+确保在编译时安装了Cython。要了解更多信息，请阅读Web上的文档，包括官方页面(http://pandas.pydata.org/pandas-docs/stable/install.html)。
 
 
 ## 用于Windows的模块存储库
@@ -107,7 +106,7 @@ pip install SomePackege-1.0.whl
 pip install pandas-0.22.0-cp36-cp36m-win_amd64.whl
 ```
 
-在选择模块时，要仔细地为您的Python版本和您工作的体系结构选择正确的版本。此外，虽然NumPy不需要安装其他包，但与此相反，panda有许多依赖项。所以一定要把它们都弄好。安装顺序并不重要。
+在选择模块时，要仔细地为您的Python版本和您工作的体系结构选择正确的版本。此外，虽然NumPy不需要安装其他包，但与此相反，pandas有许多依赖项。所以一定要把它们都弄好。安装顺序并不重要。
 
 这种方法的缺点是，您需要单独安装包，而不需要一个包管理器来帮助管理不同包之间的版本控制和相互依赖关系。其优点是对模块及其版本有更强的掌握，因此您可以在不依赖于发行版的选择的情况下使用最新的模块。
 

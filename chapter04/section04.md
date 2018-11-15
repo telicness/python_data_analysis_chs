@@ -9,14 +9,14 @@
 
 > 请注意，本章假设您对Python和NumPy有一定的了解。如果你有任何困难，阅读这本书的第二章和第三章。
 
-首先，在Python shell上打开一个会话，然后导入panda库。导入pandas模块的一般做法如下:
+首先，在Python shell上打开一个会话，然后导入pandas库。导入pandas模块的一般做法如下:
 
 ```python
 >>> import pandas as pd
 >>> import numpy as np
 ```
 
-因此，在本章和整本书中，每当您看到pd和np时，您都将引用引用这两个库的对象或方法，即使您常常试图以以下方式导入panda模块:
+因此，在本章和整本书中，每当您看到pd和np时，您都将引用引用这两个库的对象或方法，即使您常常试图以以下方式导入pandas模块:
 
 ```python
 >>> from pandas import *
