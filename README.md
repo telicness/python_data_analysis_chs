@@ -71,7 +71,7 @@
 * [5.11. 使用NoSQL数据库读写数据:MongoDB](chapter05/section11.md)
 * [5.12. 结论](chapter05/section12.md)
 
-<! --------------
+<!--
 
 ### [第6章：深入pandas：数据处理](第06章)
 
@@ -177,6 +177,6 @@
 * [14.7. 边缘检测和图像梯度分析](chapter14/section07.md)
 * [14.8. 深度学习示例：人脸检测](chapter14/section08.md)
 * [14.9. 结论](chapter14/section09.md)
------>
+-->
 
 <!-- START_TOC -->
