@@ -101,7 +101,6 @@ blue   0.628790  0.585922  0.039153  0.461598
 >> 图5-1.数据文件显示为网页中的HTML表。
 
 
-## Reading Data from an HTML File
 ## 从HTML文件中读取数据
 
 正如您刚才看到的，panda可以很容易地从dataframe开始生成HTML表。相反的过程也是可能的;函数read_html()将对查找HTML表的HTML页面执行解析。如果找到，它将把该表转换为对象dataframe，以便在数据分析中使用。

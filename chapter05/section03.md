@@ -128,21 +128,13 @@ red   up          2      2      2
 
 []() | []() 
 |------ | -----|
-.  | Single character, except newline
 .  | 单字符，换行符除外
-\d | Digit
 \d | 数字
-\D | Non-digit character
 \D | 非数字字符
-\s | Whitespace character
 \s | 空白字符
-\S | Non-whitespace character
 \S | 非空格字符
-\n | New line character
 \n | 新行字符
-\t | Tab character
 \t | 制表符
-\uxxxx | Unicode character specified by the hexadecimal number xxxx
 \uxxxx | Unicode字符由十六进制数字xxxx指定
 
 >> 表5-1。元字符
