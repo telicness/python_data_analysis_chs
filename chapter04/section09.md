@@ -1,6 +1,6 @@
 
 
-[*第四章：pangas库简介*](./README.md)
+[*第四章：pandas库简介*](./README.md)
 
 # 4.9. 排序和排名
 
