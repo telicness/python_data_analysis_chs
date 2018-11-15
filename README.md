@@ -40,7 +40,7 @@
 * [3.11. 读写文件中的数组数据](chapter03/section11.md)
 * [3.12. 结论](chapter03/section12.md)
 
-### [第4章：Pandas图书馆简介](chapter04)
+### [第4章：pandas简介](chapter04)
 
 * [4.1. Pandas：Python数据分析库](chapter04/section01.md)
 * [4.2. 安装的Pandas](chapter04/section02.md)
