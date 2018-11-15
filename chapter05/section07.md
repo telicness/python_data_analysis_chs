@@ -45,7 +45,7 @@ white     1     3      2   0
 
 您看到的示例是一个相当简单的例子，其中JSON数据是表格形式的(因为文件frame.json来自dataframe)。但是，通常JSON文件没有表格结构。因此，您需要以某种方式将结构词典文件转换为表格形式。这个过程称为规范化。
 
-库panda提供了一个名为json_normalize()的函数，它能够转换表中的dict或列表。首先，您必须导入函数:
+库pandas供了一个名为json_normalize()的函数，它能够转换表中的dict或列表。首先，您必须导入函数:
 
 ```python
 >>> from pandas.io.json import json_normalize

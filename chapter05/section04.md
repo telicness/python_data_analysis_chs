@@ -4,7 +4,7 @@
 
 # 5.4. 读写HTML文件
 
-panda为HTML格式提供了对应的一对I/O API函数。
+pandasHTML格式提供了对应的一对I/O API函数。
 
 * read_html()
 * to_html()
@@ -30,7 +30,7 @@ panda为HTML格式提供了对应的一对I/O API函数。
 >>> frame = pd.DataFrame(np.arange(4).reshape(2,2))
 ```
 
-由于I/O API函数是在panda数据结构中定义的，因此您可以直接在dataframe实例上调用to_html()函数。
+由于I/O API函数是在pandas据结构中定义的，因此您可以直接在dataframe实例上调用to_html()函数。
 
 ```python
 >>> print(frame.to_html())
@@ -103,7 +103,7 @@ blue   0.628790  0.585922  0.039153  0.461598
 
 ## 从HTML文件中读取数据
 
-正如您刚才看到的，panda可以很容易地从dataframe开始生成HTML表。相反的过程也是可能的;函数read_html()将对查找HTML表的HTML页面执行解析。如果找到，它将把该表转换为对象dataframe，以便在数据分析中使用。
+正如您刚才看到的，pandas以很容易地从dataframe开始生成HTML表。相反的过程也是可能的;函数read_html()将对查找HTML表的HTML页面执行解析。如果找到，它将把该表转换为对象dataframe，以便在数据分析中使用。
 
 更准确地说，read_html()函数返回一个dataframes列表，即使只有一个表。将被解析的源可以是不同的类型。例如，您可能必须在任何目录中读取HTML文件。例如，您可以解析您在上一个示例中创建的HTML文件:
 

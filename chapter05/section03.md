@@ -13,7 +13,7 @@
 >>> import pandas as pd
 ```
 
-为了了解panda如何处理这类数据，我们将从在工作目录中创建一个小CSV文件开始，如清单5-1所示，并将其保存为ch05_01.csv。
+为了了解pandas何处理这类数据，我们将从在工作目录中创建一个小CSV文件开始，如清单5-1所示，并将其保存为ch05_01.csv。
 
 ```text
 white,red,blue,green,animal
@@ -256,7 +256,7 @@ dtype: int64
 >>> frame.to_csv('ch05_07.csv')
 ```
 
-如果打开由panda库生成的名为ch05_07的csv文件，您将看到如清单5-7所示的数据。
+如果打开由pandas生成的名为ch05_07的csv文件，您将看到如清单5-7所示的数据。
 
 ```text
 ,ball,pen,pencil,paper
