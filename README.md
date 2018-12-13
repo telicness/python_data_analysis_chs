@@ -71,7 +71,6 @@
 * [5.11. 使用NoSQL数据库读写数据:MongoDB](chapter05/section11.md)
 * [5.12. 结论](chapter05/section12.md)
 
-<!--
 
 ### [第6章：深入pandas：数据处理](第06章)
 
@@ -107,6 +106,8 @@
 * [7.17. mplot3d工具包](chapter07/section17.md)
 * [7.18. 多面板图](chapter07/section18.md)
 * [7.19. 结论](chapter07/section19.md)
+
+<!--
 
 ### [第8章:利用scikit-learn进行机器学习](chapter08)
 
