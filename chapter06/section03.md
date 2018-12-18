@@ -253,4 +253,3 @@ first     red      mug   4.20
 4  yellow  ashtray   2.75
 
 ```
-

@@ -7,7 +7,6 @@
 使用numpy.random.permutation()函数很容易实现series或dataframe的行的置换(随机重排序)操作。
 
 对于此示例，创建一个包含按升序排列的整数的dataframe。
-
 ```python
 >>> nframe = pd.DataFrame(np.arange(25).reshape(5,5))
 >>> nframe
@@ -18,7 +17,6 @@
 3  15  16  17  18  19
 4  20  21  22  23  24
 ```
-
 现在，使用permutation()函数创建一个由5个整数组成的数组，这些整数从0到4以随机的顺序排列。这将是设置dataframe的一行值的新顺序。
 
 ```python
@@ -28,7 +26,6 @@ array([2, 3, 0, 1, 4])
 ```
 
 现在，使用take()函数将其应用到所有行的dataframe上。
-
 ```python
 >>> nframe.take(new_order)
     0   1   2   3   4
@@ -68,5 +65,6 @@ array([1, 4, 4])
 ```
 
 从这个随机抽样中，你可以更容易地得到相同的样本。
+
 
 

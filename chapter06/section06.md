@@ -73,7 +73,6 @@ True
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: substring not found
-
 >>> text.find('New York')
 -1
 ```
@@ -183,4 +182,6 @@ match()函数只在字符串的开头执行匹配;如果没有匹配到第一个
 >>> text[match.start():match.end()]
 'This'
 ```
+
+
 

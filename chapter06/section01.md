@@ -102,7 +102,6 @@ Empty DataFrame
 Columns: [brand, color, id]
 Index: []
 ```
-
 有必要显式地定义pandas必须遵循的合并条件，在on选项中指定关键列的名称。
 ```python
 >>> pd.merge(frame1,frame2,on='id')
@@ -111,7 +110,6 @@ Index: []
 1     ABC    red  pencil     OMG
 2     ABC    red  pencil     POD
 3     ABC    red     pen     POD
-
 >>> pd.merge(frame1,frame2,on='brand')
   brand  color     id_x    id_y
 0   OMG  white     ball  pencil
@@ -133,7 +131,6 @@ Index: []
 1   POD  pencil
 2   ABC    ball
 3   POD    pen
-
 >>> pd.merge(frame1, frame2, left_on='id', right_on='sid')
   brand_x  color      id brand_y     sid
 0     OMG  white    ball     ABC    ball
@@ -197,7 +194,7 @@ Index: []
 在某些情况下，索引可以用作合并键，而不是将dataframe的列看作键。然后，为了决定要考虑哪些索引，您将left_index或right_index选项设置为True以激活它们，也可以同时激活它们。
 
 ```python
->>> pd.merge(frame1, frame2, right_index=True, left_index=True)
+>>> pd.merge(frame1,frame2,right_index=True, left_index=True)
   brand_x  color    id_x brand_y    id_y
 0     OMG  white    ball     OMG  pencil
 1     ABC    red  pencil     POD  pencil
@@ -207,7 +204,6 @@ Index: []
 
 但是dataframe对象有一个join()方法，当您希望通过索引进行合并时，这个函数更方便。它还可以用来组合许多具有相同或相同索引但没有列重叠的dataframe对象。
 
-In fact, if you launch
 事实上，如果你执行
 ```python
 >>> frame1.join(frame2)
