@@ -107,7 +107,6 @@
 * [7.18. 多面板图](chapter07/section18.md)
 * [7.19. 结论](chapter07/section19.md)
 
-<!--
 
 ### [第8章:利用scikit-learn进行机器学习](chapter08)
 
@@ -121,6 +120,7 @@
 * [8.8. 支持向量机(SVMs)](chapter08/section08.md)
 * [8.9. 结论](chapter08/section09.md)
 
+<!--
 ### [第9章：用TensorFlow深度学习](chapter09)
 
 * [9.1. 人工智能、机器学习与深度学习](chapter09/section01.md)
